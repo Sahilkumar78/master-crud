@@ -1,0 +1,30 @@
+.card{
+      min-height: 30vh;
+      width: 300px;
+      /* //background: red; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+
+
+#update{
+    height: 3vw;
+      width: 2vw;
+     padding: 15px 100px;
+     border-radius: 30px;
+     text-align:center;
+     cursor: pointer;
+
+    
+    
+}
+#delete{
+      height: 3vw;
+      width: 2vw;
+     padding: 15px 100px;
+     border-radius: 30px;
+     text-align:center;
+}
