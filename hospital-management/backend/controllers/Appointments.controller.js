@@ -7,7 +7,7 @@ import { Appointment } from "../models/Appointment.model.js";
 
 // get all appointments
 
-const getAllAppointments = asyncHandler(async () => {
+const getAllAppointments = asyncHandler(async (req, res) => {
        
     const appointments = await Appointment.find();
 
