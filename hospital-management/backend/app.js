@@ -7,7 +7,7 @@ app.use(cors({
      credentials: true
 }))
 
-app.use(express.json())
+app.use(express.json()) // req.json
 app.use(express.urlencoded({extended: true}))
 
 import patientRouter from "./routes/patientRoutes.js"
