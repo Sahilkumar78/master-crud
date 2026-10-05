@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended: true}));
 
 //routes
 
-import eventRouter from "./routes/event.routes"
+import eventRouter from "./routes/event.routes.js"
 
 app.use("/api/v1/event", eventRouter);
 
