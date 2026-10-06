@@ -10,7 +10,10 @@ import mongoose from "mongoose";
 const createEvent = asyncHandler(async (req, res) => {
      
      const {title, date, reminder} = req.body;
-
+      console.log(title);
+      console.log(date);
+      console.log(reminder);
+      
     if(!title || !date || !reminder){
          throw new ApiError(400, "All fields are required");
     }
