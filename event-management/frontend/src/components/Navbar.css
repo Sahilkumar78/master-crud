@@ -1,4 +1,39 @@
+.container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: red;
+     padding: 20px 0px;
+}
+
+
+.left{
+     /* background-color: red; */
+     padding: 3px;
+
+}
+
 
 img{
+     height: 5vw;
+     width: 5vw; /* background-color: re */
+   display: flex;
+   align-items: center;
+   border-radius: 50px;
+  margin-left: 10px;
+ 
+}
+
+.right{
+    display: flex;
+    gap: 20px; 
+    font-size: large;
+     padding-right: 100px;
+     cursor: pointer;
+     
+}
+
+.right p:hover{
+     color: yellow;
      
 }
